@@ -1,0 +1,19 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modalWrapper {
+  padding: 24px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+}

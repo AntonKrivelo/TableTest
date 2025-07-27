@@ -1,0 +1,48 @@
+.wrapper {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+
+  &--cancel {
+    background-color: #eee;
+    color: #333;
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+
+  &--confirm {
+    background-color: #d32f2f;
+    color: #fff;
+
+    &:hover {
+      background-color: #b71c1c;
+    }
+  }
+}
