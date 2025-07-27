@@ -104,16 +104,31 @@ const Table = ({ data }) => {
         <thead>
           <tr>
             <th>
-              Имя <button onClick={() => setSort('nameLowToHigh')}>^</button>
-              <button onClick={() => setSort('nameHighToLow')}>v</button>
+              Имя{' '}
+              <button className="sort-btn" onClick={() => setSort('nameLowToHigh')}>
+                ↑
+              </button>
+              <button className="sort-btn" onClick={() => setSort('nameHighToLow')}>
+                ↓
+              </button>
             </th>
             <th>
-              Дата <button onClick={() => setSort('dateLowToHigh')}>^</button>
-              <button onClick={() => setSort('dateHighToLow')}>v</button>
+              Дата{' '}
+              <button className="sort-btn" onClick={() => setSort('dateLowToHigh')}>
+                ↑
+              </button>
+              <button className="sort-btn" onClick={() => setSort('dateHighToLow')}>
+                ↓
+              </button>
             </th>
             <th>
-              Возраст <button onClick={() => setSort('ageLowToHigh')}>^</button>
-              <button onClick={() => setSort('ageHighToLow')}>v</button>
+              Возраст{' '}
+              <button className="sort-btn" onClick={() => setSort('ageLowToHigh')}>
+                ↑
+              </button>
+              <button className="sort-btn" onClick={() => setSort('ageHighToLow')}>
+                ↓
+              </button>
             </th>
             <th>Действия</th>
             <th></th>
